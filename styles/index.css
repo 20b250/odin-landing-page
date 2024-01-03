@@ -1,0 +1,51 @@
+/* TEMPORAL */
+
+
+/* General */
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main-content-container {
+    flex: auto;
+}
+
+/* Header */
+
+#header, #footer {
+    min-height: 60px;
+}
+
+#header-container, #footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-links {
+    display: flex;
+    gap: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 800;
+}
